@@ -18,6 +18,7 @@ public class ResourceManager : MonoBehaviour
         return gold;
     }
 
+    // 골드 지정
     public void SetGold(int a)
     {
         gold = a;
@@ -30,5 +31,8 @@ public class ResourceManager : MonoBehaviour
         gold += a;
         GameManager.Instance.uiManager.UpdateGold(gold);
     }
+
+    // 상점같은데 사용 할 돈이 많으면 true 반환하는 함수?
+
 }
 
