@@ -1,6 +1,7 @@
+
 # 24시간 모험가 길드
 - 이 프로젝트는 개인 과제로 진행된 방치형 게임 프로토타입입니다.
-
+<img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/9c50449c-e90e-4ed2-8fc1-5e5ece313dff" />
 
 # 개발 기간
 - 2025-07-29 ~ 2025-08-05
