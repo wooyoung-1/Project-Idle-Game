@@ -4,7 +4,7 @@
 <img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/9c50449c-e90e-4ed2-8fc1-5e5ece313dff" />
 
 # 개발 기간
-- 2025-07-29 ~ 2025-08-05
+- 2025-08-25 ~ 2025-08-29
 
 
 # 기술
