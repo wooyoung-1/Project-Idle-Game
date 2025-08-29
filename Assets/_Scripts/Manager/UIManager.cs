@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject npcMenuUI;
     [SerializeField] private GameObject statusUI;
     [SerializeField] private GameObject equipUI;
+    [SerializeField] private GameObject fieldUI;
 
     [SerializeField] private GameObject backButton;
 
@@ -140,7 +141,14 @@ public class UIManager : MonoBehaviour
         statusUI.SetActive(false);
         equipUI.SetActive(false);
         backButton.SetActive(false);
+        fieldUI.SetActive(false);
         click.SetActive(false);
+    }
+
+    public void ShowFieldMenu()
+    {
+        npcMenuUI.SetActive(false);
+        fieldUI.SetActive(true);
     }
 
     public void ShowPlayerMenu()
@@ -207,6 +215,11 @@ public class UIManager : MonoBehaviour
         statusUI.SetActive(false);
         equipUI.SetActive(false);
         backButton.SetActive(false);
+    }
+
+    public void BattleUI()
+    {
+        fieldUI.SetActive(false);
     }
 
     public void UpdateGold(int a)

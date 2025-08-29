@@ -108,9 +108,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void StartAdventure(string regionName)
+    public void StartAdventure()
     {
-
+        mapManager.SwitchFade(2);
+        uiManager.BattleUI();
+        ChangeState(GameState.Battle);
     }
 
     public void QuitGame()

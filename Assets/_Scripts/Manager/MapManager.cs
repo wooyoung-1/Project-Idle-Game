@@ -21,6 +21,13 @@ public class MapManager : MonoBehaviour
         Debug.Log("∏ √º≈©:" + index);
     }
 
+    public void SwitchFade(int index)
+    {
+        StartCoroutine(SwitchFadeOut(index));
+
+        Debug.Log("∏ √º≈©:" + index);
+    }
+
     public void SwitchTitle(int index)
     {
         StartCoroutine(SwitchFadeTitle(index));
