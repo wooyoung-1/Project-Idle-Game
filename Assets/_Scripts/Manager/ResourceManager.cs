@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class ResourceManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int gold = 0;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            AddGold(100);
+        }
+    }
+    public int GetGold()
+    {
+        return gold;
+    }
+
+    public void SetGold(int a)
+    {
+        gold = a;
+        GameManager.Instance.uiManager.UpdateGold(gold);
+    }
+
+    // °ñµå Ãß°¡
+    public void AddGold(int a)
+    {
+        gold += a;
+        GameManager.Instance.uiManager.UpdateGold(gold);
     }
 }
+

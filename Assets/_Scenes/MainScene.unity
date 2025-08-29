@@ -1210,7 +1210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &136319474
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3282,7 +3282,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381130796}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -5461,7 +5461,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759253752}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45da197af69991b4397290bb173a3ecc, type: 3}
   m_Name: 
@@ -5750,8 +5750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 127, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: -66.5, y: 0}
+  m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &834202965
 MonoBehaviour:
@@ -6562,6 +6562,7 @@ MonoBehaviour:
   uIImageEvent: {fileID: 137767231}
   click: {fileID: 381130796}
   gold: {fileID: 136319473}
+  _GOLD: {fileID: 834202965}
   _NAME: {fileID: 891154795}
   _LV: {fileID: 1795995286}
   _HP: {fileID: 322032573}
@@ -6632,7 +6633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 759253752}
   targetCamera: {fileID: 1986293576}
-  moveTransform: {x: -2.292, y: 1.227, z: -6.37}
+  moveTransform: {x: -4.67, y: 1.24, z: -2.84}
   npcType: 2
 --- !u!114 &1008449416
 MonoBehaviour:

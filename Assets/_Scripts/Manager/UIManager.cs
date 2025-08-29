@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject click;
     [SerializeField] private GameObject gold;
+    [SerializeField] private Text _GOLD;
 
     [Header("statusUI")]
     [SerializeField] private Text _NAME;
@@ -206,5 +207,10 @@ public class UIManager : MonoBehaviour
         statusUI.SetActive(false);
         equipUI.SetActive(false);
         backButton.SetActive(false);
+    }
+
+    public void UpdateGold(int a)
+    {
+        _GOLD.text = a.ToString();
     }
 }

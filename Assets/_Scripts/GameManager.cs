@@ -62,12 +62,12 @@ public class GameManager : MonoBehaviour
 
         // 세이브 불러오기
         yield return new WaitForSeconds(1f);
-
         //상태 변경
         ChangeState(GameState.Title);
 
-        // 자원 세팅
         yield return null;
+        // 자원 세팅
+        resourceManager.SetGold(0);
 
         // 모험가 생성
         yield return null;
